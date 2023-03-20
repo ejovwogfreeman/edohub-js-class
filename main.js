@@ -857,3 +857,62 @@
 // console.log(h1.innerHTML);
 
 // h1.innerText = "<h6>Lets learn JS</h6>";
+
+// document.getElementById("btn").addEventListener("click", () => {
+//   alert("hello world");
+// });
+
+// let on = document.getElementById("on");
+// let off = document.getElementById("off");
+// let bulb = document.getElementById("bulb");
+
+// on.addEventListener("click", () => {
+//   bulb.src = "bulbon.gif";
+// });
+
+// off.addEventListener("click", () => {
+//   bulb.src = "bulboff.gif";
+// });
+
+// let btn = document.getElementById("btn");
+// let bulb = document.getElementById("bulb");
+
+// btn.addEventListener("click", () => {
+//   if (btn.textContent === "on") {
+//     btn.textContent = "off";
+//     bulb.src = "bulbon.gif";
+//   } else {
+//     btn.textContent = "on";
+//     bulb.src = "bulboff.gif";
+//   }
+// });
+
+// basic form validation
+
+let form = document.getElementById("form");
+let nameIput = document.getElementById("nameInput");
+let emailIput = document.getElementById("emailInput");
+
+// form.addEventListener("submit", (e) => {
+//   if (nameIput.value === "" || emailIput.value === "") {
+//     alert("please fill all fields");
+//   } else {
+//     e.preventDefault();
+//     console.log(nameIput.value);
+//     console.log(emailIput.value);
+//   }
+//   nameIput.value = "";
+//   emailIput.value = "";
+// });
+
+// form.addEventListener("submit", (e) => {
+//   if (nameIput.value === "" || emailIput.value === "") {
+//     return alert("please fill all fields");
+//   }
+//   e.preventDefault();
+//   console.log(nameIput.value);
+//   console.log(emailIput.value);
+
+//   nameIput.value = "";
+//   emailIput.value = "";
+// });

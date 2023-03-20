@@ -6,8 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body>
-    <button id="btn">click</button>
+  <body id="body">
+    <!-- <button id="off">off</button>
+    <img id="bulb" src="bulboff.gif" alt="" />
+    <button id="on">on</button> -->
+
+    <!-- using a single button to toggle -->
+    <!-- <img id="bulb" src="bulboff.gif" alt="" />
+    <button id="btn">on</button> -->
+
+    <form
+      id="form"
+      style="
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+        width: 500px;
+        margin: auto;
+      "
+    >
+      <input type="text" id="nameInput" placeholder="Please enter your name" />
+      <br />
+      <br />
+      <input
+        type="email"
+        id="emailInput"
+        placeholder="Please enter your email"
+      />
+      <br />
+      <br />
+      <button>submit</button>
+    </form>
+
     <script src="main.js"></script>
   </body>
 </html>
