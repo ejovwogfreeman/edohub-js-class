@@ -129,6 +129,22 @@
 //   }
 // }
 
+// break and continue
+
+// for (let i = 1; i <= 10; i++) {
+//   if (i === 5) {
+//     break;
+//   }
+//   console.log(i);
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//   if (i === 5) {
+//     continue;
+//   }
+//   console.log(i);
+// }
+
 // while loop
 
 // i = 0;
@@ -169,6 +185,10 @@
 // }
 
 // var names = ["glory", "emmanuel", "edesiri", "martha", "Diana", "Merlin"];
+
+// let x = names.filter((x) => x !== "emmanuel");
+
+// console.log(x);
 
 // for (let name of names) {
 //   console.log(name);
@@ -916,3 +936,38 @@ let emailIput = document.getElementById("emailInput");
 //   nameIput.value = "";
 //   emailIput.value = "";
 // });
+
+// add => push, unshift, splice
+// remove => pop, shift, splice
+
+// let btn = document.getElementById("btn");
+// let body = document.getElementById("body");
+// btn.addEventListener("click", blackBtn);
+
+// function blackBtn() {
+//   body.style.background = "black";
+//   getAlert();
+// }
+
+// function getAlert() {
+//   alert("hello world");
+// }
+
+// btn.addEventListener("click", () => {
+//   if (btn.textContent === "dark") {
+//     btn.textContent = "light";
+//     blackBg();
+//   } else {
+//     btn.textContent = "dark";
+//     whiteBg();
+//   }
+// });
+
+// function blackBg() {
+//   body.style.backgroundColor = "black";
+//   body.style.color = "white";
+// }
+// function whiteBg() {
+//   body.style.backgroundColor = "white";
+//   body.style.color = "black";
+// }
